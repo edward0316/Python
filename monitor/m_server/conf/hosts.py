@@ -23,3 +23,5 @@ h2.port = 22
 h2.os = 'ubuntu'
 h2.services['cpu'].interval = 40
 print h2.services['cpu'].interval
+
+#test sync
