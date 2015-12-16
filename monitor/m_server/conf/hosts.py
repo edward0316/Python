@@ -11,7 +11,7 @@ h1.ip_address = '192.168.73.11'
 h1.port = 22
 h1.os = 'CentOS 7'
 h1.services['cpu'].interval = 38
-print h1.services['cpu'].interval
+#print h1.services['cpu'].interval
 
 #print h1.services
 
@@ -22,6 +22,8 @@ h2.ip_address = '192.168.73.12'
 h2.port = 22
 h2.os = 'ubuntu'
 h2.services['cpu'].interval = 40
-print h2.services['cpu'].interval
+#print h2.services['cpu'].interval
 
+
+monitored_hosts = [h1,h2]
 #test sync
