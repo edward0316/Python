@@ -7,12 +7,12 @@ class cpu(DefaultService):
     interval = 60
     plugin_name = 'cpu_info'
     triggers = {
-        'iowait':['percentage',5.5,90],
-        'system':['percentage',5,90],
-        'idle':['percentage',20,10],
-        'user':['percentage',80,90],
-        'steal':['percentage',80,90],
-        'nice':[None,80,90],
+        'iowait':['percentage', 5.5, 90],
+        'system':['percentage', 5, 90],
+        'idle':['percentage', 20, 10],
+        'user':['percentage', 80, 90],
+        'steal':['percentage', 80, 90],
+        'nice':[None, 80, 90],
     }
     data_from = 'agent'
     graph_index = {
