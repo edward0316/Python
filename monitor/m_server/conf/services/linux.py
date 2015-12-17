@@ -3,29 +3,31 @@
 from generic import DefaultService
 
 class cpu(DefaultService):
-    name = 'cpu'
-    interval = 60
-    plugin_name = 'cpu_info'
-    triggers = {
-        'iowait':['percentage', 5.5, 90],
-        'system':['percentage', 5, 90],
-        'idle':['percentage', 20, 10],
-        'user':['percentage', 80, 90],
-        'steal':['percentage', 80, 90],
-        'nice':[None, 80, 90],
-    }
-    data_from = 'agent'
-    graph_index = {
-        'index':[],
-        'title':name,
-    }
-    lt_operator = []
+    def __init__(self):
+        self.name = 'cpu'
+        self.interval = 60
+        self.plugin_name = 'cpu_info'
+        self.triggers = {
+            'iowait':['percentage', 5.5, 90],
+            'system':['percentage', 5, 90],
+            'idle':['percentage', 20, 10],
+            'user':['percentage', 80, 90],
+            'steal':['percentage', 80, 90],
+            'nice':[None, 80, 90],
+        }
+        #data_from = 'agent'
+        #graph_index = {
+        #    'index':[],
+        #    'title':name,
+        #}
+        self.lt_operator = []
 
 class load(DefaultService):
-        name = 'load'
-        interval = 120
-        plugin_name = 'load_info'
-        triggers = {
+    def __init__(self):
+        self.name = 'load'
+        self.interval = 120
+        self.plugin_name = 'load_info'
+        self.triggers = {
                 #'uptime': ['string', 'd',90],
                 #'ptime': ['string', 'd',90],
                 'load1': [int, 4,9],
@@ -37,13 +39,14 @@ class load(DefaultService):
      #    'title': 'Load status' ,
    # }
 class memory(DefaultService):
-    name = 'memory'
-    plugin_name = 'mem_info'
-    triggers = {
-        'SwapUsage_p':['percentage', 66, 91],
-        'MemUsage_p': ['percentage', 68, 92],
-        'MemUsage': [None, 60, 65],
-    }
+    def __init__(self):
+        self.name = 'memory'
+        self.plugin_name = 'mem_info'
+        self.triggers = {
+            'SwapUsage_p':['percentage', 66, 91],
+            'MemUsage_p': ['percentage', 68, 92],
+            'MemUsage': [None, 60, 65],
+        }
     #graph_index = {
     #    'index': ['MemUsage','SwapUsage'],
 

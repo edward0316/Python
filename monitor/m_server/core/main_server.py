@@ -15,3 +15,19 @@ def push_configure_data_to_redis():
         redis.r['configuration::%s' % h.hostname] = json.dumps(config_dic)
 
 push_configure_data_to_redis()
+
+
+#receive data
+
+channel = 'fm_103'
+msg_queue = redis.r.pubsub()#bind listen instance
+msg_queue.subscribe(channel)
+msg_queue.parse_response()
+
+count = 0
+while True:
+    data = msg_queue.parse_response()
+    print data
+    print 'round %s :: ' % count, json.loads(data[2])
+
+    count += 1

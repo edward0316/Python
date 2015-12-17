@@ -8,7 +8,7 @@ import plugin_api
 import redis_connector as redis
 
 hostname = 'edward_server'
-
+monitor_chan = 'fm_103'
 
 def pull_config_from_redis():
     config_data = redis.r.get("configuration::%s" % hostname)
@@ -21,9 +21,17 @@ def pull_config_from_redis():
 def run(service_config):
     service_name, interval, plugin_name = service_config
     #print(interval, plugin_name)
-
     plugin_func = getattr(plugin_api, plugin_name)
     res = plugin_func()
+
+    service_data = {
+        'hostname' : hostname,
+        'service_name' : service_name,
+        'data' : res
+    }
+
+    redis.r.publish(monitor_chan, json.dumps(service_data))
+
     print res
     return res
 

@@ -10,12 +10,13 @@ class BaseTemplate:
     os = None
 
 class LinuxGeneralServices(BaseTemplate):
-    name = 'Linux General Services'
-    services = {
-        'cpu':linux.cpu(),
-        'memory': linux.memory(),
-        'load': linux.load(),
-    }
+    def __init__(self):
+        self.name = 'Linux General Services'
+        self.services = {
+            'cpu':linux.cpu(),
+            'memory': linux.memory(),
+            'load': linux.load(),
+        }
 
 class WindowsGeneralService(BaseTemplate):
     name='Windows General Services'
