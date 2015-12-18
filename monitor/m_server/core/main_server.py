@@ -2,6 +2,7 @@ import global_setting
 from conf import hosts
 import redis_connector as redis
 import json
+import time
 
 def push_configure_data_to_redis():
 
@@ -28,6 +29,15 @@ count = 0
 while True:
     data = msg_queue.parse_response()
     print data
-    print 'round %s :: ' % count, json.loads(data[2])
+    print 'round %s :: ' % count
+    client_data = json.loads(data[2])
+    client_data['recv_time'] = time.time()
+    redis_key = '%s::%s' % (client_data['hostname'], client_data['service_name'])
+
+#   dump client service data into redis
+    redis.r[redis_key] = json.dumps(client_data)
+
+    for k, v in client_data.items():
+        print(k, '----->', v)
 
     count += 1

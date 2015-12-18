@@ -20,7 +20,7 @@ class cpu(DefaultService):
         #    'index':[],
         #    'title':name,
         #}
-        self.lt_operator = []
+        self.lt_operator = ['idle']
 
 class load(DefaultService):
     def __init__(self):
@@ -41,11 +41,12 @@ class load(DefaultService):
 class memory(DefaultService):
     def __init__(self):
         self.name = 'memory'
+        self.interval = 15
         self.plugin_name = 'mem_info'
         self.triggers = {
             'SwapUsage_p':['percentage', 66, 91],
             'MemUsage_p': ['percentage', 68, 92],
-            'MemUsage': [None, 60, 65],
+            #'MemUsage': [None, 60, 65],
         }
     #graph_index = {
     #    'index': ['MemUsage','SwapUsage'],
