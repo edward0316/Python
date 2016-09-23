@@ -1,0 +1,3 @@
+edward Shopping_History
+kathy Shopping_History
+123 Shopping_History Tue.Aug..9.19:07:49.2016|Volkswagen|500000  Tue.Aug..9.19:08:01.2016|Hair_dryer|500  Tue.Aug..9.19:08:03.2016|TV|5000

@@ -1,0 +1,2 @@
+edward|1234|0|edward@test.com|Brisbane
+ken|12345|1|ken@test.com|Sydney
