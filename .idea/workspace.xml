@@ -4,29 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/Basic/Day5/bin/Shopping.py" description="import sys&#10;sys.path.append(&quot;..&quot;)" line="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef5bb372-ccd9-480c-82b7-b5c7e15cc3e9" name="Default" comment="update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/ReadMe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/bin/Root.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/conf/DisplayMenu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/conf/Log.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/db/RootMenu" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/db/ShoppingMenu" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/db/User" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/db/atmMenu" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/modules/AtmFunction.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/modules/Cart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/modules/CheckPassword.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/modules/LoadDic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/modules/RootFunction.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/modules/core/ATM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/modules/core/Root.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/modules/core/Shopping.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day5/modules/core/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Basic/Day5/conf/menu.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Basic/Day5/bin/shopping.py" afterPath="$PROJECT_DIR$/Basic/Day5/bin/Shopping.py" />
+    <list default="true" id="ef5bb372-ccd9-480c-82b7-b5c7e15cc3e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Basic/Day5/bin/ATM.py" afterPath="$PROJECT_DIR$/Basic/Day5/bin/ATM.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Basic/Day5/bin/GeneralSetting.py" afterPath="$PROJECT_DIR$/Basic/Day5/bin/GeneralSetting.py" />
     </list>
     <ignored path="PythonWork.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shopping.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Shopping.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basic/Day5/bin/Shopping.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -130,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneralSetting.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GeneralSetting.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Basic/Day5/bin/GeneralSetting.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -834,14 +813,21 @@
       <option name="project" value="LOCAL" />
       <updated>1479220359183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1480079535146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1480079535146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="6736" y="-14" width="3268" height="1963" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23469993" sideWeight="0.529321" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -878,7 +864,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="80" />
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1027,6 +1013,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="55" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,14 +1216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic/Day5/bin/GeneralSetting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic/Day5/bin/ATM.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1254,6 +1233,14 @@
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic/Day5/bin/GeneralSetting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
