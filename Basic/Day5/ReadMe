@@ -1,0 +1,49 @@
+
+bin:
+    The two files under bin are the entry of the program. Using start as the first parameter to lunch.
+    GeneralSetting.py: adding the working path to sys.path
+conf:
+    DisplayMenu.py:
+        def display_shopping(): Display the shopping menu
+        def display_atm(): Display the atm menu
+    Log.py:
+        def shopping_log(username, item): Format of shopping log setting. Parameter "item" is a list of all purchased items.
+                                          "username" is the user's login ID.
+        def withdraw_log(username, amount): Withdraw log. Username is the login user, Amount is the number of withdrawing.
+        def transfer_log(username, target, amount): Transfer log. Username is the original account. Target is the
+                                            destination account. Amount is the amount of transfer.
+        def pay_back_log(username, amount):
+        def add_account(admin, user)
+        def change_account_limit(admin, user, limit):
+        def froze_account(admin, user):
+log:
+    Log files' location
+
+
+modules:
+    core:
+        ATM.py: The main script for ATM function
+        Shopping.py: The main script for shopping function
+    Cart.py:
+        def check_cart(item): Check the items in cart
+        def purchase(username, item): Pay all the item in the cart
+        def delete(item): Delete a item in the cart
+    CheckPassword.py: Check the username and password in the login process.
+    AtmFunctioin.py:
+        def withdraw(username):
+        def transfer(username):
+        def bank_statement(username):
+        def pay_back(username):
+        username is the login user
+    RootFunction.py:
+        def add_account(admin):
+        def hange_account_limit(admin):
+        def froze_account(admin):
+        admin is the root's account name
+
+db:
+    ShoppingMenu: item's name and price.
+    User: {username:[password, balance left, balance limit, frozen tag 0 for active 1 for forzen,
+          admin tag 0 for admin 1 for normal user]}
+    atmMenu: menu on atm
+    RootMenu: menu for root panel.
