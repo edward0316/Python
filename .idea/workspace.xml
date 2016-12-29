@@ -5,44 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef5bb372-ccd9-480c-82b7-b5c7e15cc3e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/client/03.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/client/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/client/client_socket.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/bin/GeneralSetting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/bin/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/bin/run.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/db/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/db/abc/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/db/abc/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/db/profile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/db/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/module/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Advance/Day9/server/module/ftp_server.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day6/Calculator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day6/demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/bin/GeneralSetting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/bin/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/bin/run.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/conf/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/conf/menu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/db/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/db/admin/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/db/admin/admin1/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/db/admin/admin1/profile.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/db/admin/admin1/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/db/student/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/db/teacher/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/db/units/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/modules/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/modules/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/modules/identify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/modules/role.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/modules/run.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Basic/Day7/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PythonWork.iws" />
@@ -679,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480079689176</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1482935033320</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1482935033320</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -692,7 +661,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29526123" sideWeight="0.71566665" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29526123" sideWeight="0.71566665" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18954249" sideWeight="0.47901234" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
